@@ -43,7 +43,6 @@ void callback(char* topic, byte* payload, unsigned int length) {
   Serial.print("Payload: ");
   // Append NULL terminator at the end of the byte array to delimit our payload
   payload[length] = '\0';
-  // String pay = (char*)payload;
   Serial.println((char*) payload);
 }
 
