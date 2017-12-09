@@ -5,7 +5,7 @@ some of the most common Arduino sensors out there. The sketches are setup in a
 way that after a little bit of configuration on your end, you will be able to start
 pushing messages to an MQTT server in no time.
 
-## About the repo
+## Requirements:
 
 As of now, the examples use Nick O'Leary's [PubSubClient](https://github.com/knolleary/pubsubclient)
 library to establish a connection to the MQTT Server.
