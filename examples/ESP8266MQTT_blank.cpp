@@ -19,7 +19,7 @@ const char* password = "1234567890"; // Change this to match your network's pass
 // Connection retry delay in millis
 const int retryDelay = 5000;
 // Address of your MQTT Server
-const char* mqttServer = "192.168.31.13";
+const char* mqttServer = "127.0.0.1";
 // Port of the MQTT Server. Usually it is port 1883
 const int mqttServerPort = 1883;
 // Baud rate
